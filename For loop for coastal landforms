@@ -1,0 +1,7 @@
+#The for loop iterates over a list of coastal landforms and skips over index 4 due to continue statement. 
+landform_list= ["estuary","cove","headland","spit","lagoon","bay","stack","stump","cave","arch","delta","wave-cut platform"]
+for landform in landform_list:
+         if landform == "spit":
+                 continue
+         else:
+          print(landform)
